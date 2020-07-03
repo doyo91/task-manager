@@ -31,8 +31,10 @@ background: linear-gradient(to right, #BD3F32, #CB356B); /* W3C, IE 10+/ Edge, F
 
 .app-wrapper {
   background-color: #292f38;
-  width: 25%;
-  min-width: 450px;
+  width: 100%;
+  margin: 0 1rem;
+  min-width: 350px;
+  max-width: 600px;
   height: 600px;
   padding: 30px;
   box-sizing: border-box;
@@ -90,10 +92,11 @@ background: linear-gradient(to right, #BD3F32, #CB356B); /* W3C, IE 10+/ Edge, F
 }
 
 .task-input {
-  width: 350px;
-  min-width: 250px;
+  width: 100%;
+  max-width: 500px;
   padding: 15px 10px 10px 20px;
   margin-right: 10px;
+  margin-bottom: 5px;
   font-family: 'Josefin Sans', serif;
   font-size: 15px;
   color: #ccc;
